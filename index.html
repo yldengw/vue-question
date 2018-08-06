@@ -1,12 +1,23 @@
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>vue-question</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+    <!--禁止掉横竖屏的切换 竖屏显示-->
+    <meta name="screen-orientation" content="portrait"/>
+    <!--设置Web应用是否以全屏模式运行-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!--禁止把数字转化为拨号链接-->
+    <meta name="format-detection" content="telephone=no">
+    <!--设置是否全屏，yes表示强制浏览器全屏-->
+    <meta name="full-screen" content="yes">
+    <!--QQ 浏览器x5内核定制标签 设置全屏-->
+    <meta name="x5-fullscreen" content="true">
+    <title>vue2-question</title>
   </head>
   <body>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
+    <div id="app">
+    	<router-view></router-view>
+    </div>
   </body>
 </html>
+
