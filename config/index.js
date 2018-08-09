@@ -13,9 +13,9 @@ module.exports = {
     // 构建输出的二级目录
     assetsSubDirectory: 'static',
     // 构建发布的根目录，可配置为资源服务器域名或 CDN 域名
-    assetsPublicPath: '/',
+    assetsPublicPath: './',
     // 是否开启 cssSourceMap
-    productionSourceMap: true,
+    productionSourceMap: false,
     // Gzip off by default as many popular static hosts such as
     // Surge or Netlify already gzip all static assets for you.
     // Before setting to `true`, make sure to:
@@ -42,7 +42,7 @@ module.exports = {
     autoOpenBrowser: true,
     assetsSubDirectory: 'static',
     // 编译发布的根目录，可配置为资源服务器域名或 CDN 域名
-    assetsPublicPath: '/',
+    assetsPublicPath: './',
     // proxyTable 代理的接口（可跨域）
     // 使用方法：https://vuejs-templates.github.io/webpack/proxy.html
     proxyTable: {},
